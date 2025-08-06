@@ -1,8 +1,8 @@
-#PDF Text Extraction and NLP with spaCy
+# PDF Text Extraction and NLP with spaCy
 
 This project extracts text from a PDF file, performs **Named Entity Recognition (NER)** and **Dependency Parsing** using spaCy, and exports the extracted entities into a structured **JSON file**.
 
-#✨ Features
+# 📂 Features
 
 Feature	Description
 
@@ -29,7 +29,7 @@ Feature	Description
 
 
  
- #📂 Project Structure
+ # Project Structure
 
 ├── extract_nlp_pdf.py 
 
@@ -40,7 +40,7 @@ Feature	Description
 ├── README.md 
 
 
-#📄 What It Does
+# What It Does
 
 Loads a PDF file using PyPDF2
 
@@ -57,7 +57,7 @@ Saves named entities to output.json
 Prints a sample named entity to the console.
 
 
-#🚀 How to Run
+# 🚀 How to Run
 Place your PDF (e.g., NIST-Cybersecurity-Framework-Policy-Template-Guide.pdf) in your working directory.
 
 Update the file_path in the script if needed.
@@ -68,7 +68,7 @@ Run the Python script:
 python extract_nlp_pdf.py
 
 
-#🧪 Sample Output (Console)
+# 🧪 Sample Output (Console)
 
 Total no.of pages in pdf file: 12
 Elon Musk PERSON
@@ -79,7 +79,7 @@ California GPE
 Sample Named Entity: {'text': 'California', 'label': 'GPE'}
 Sample POS Tag: {'text': 'California', 'label': 'GPE'}
 
-📜 License
+# 📜 License
 
 This project is for educational and research purposes.
 Policy content from the NIST framework should follow their usage guidelines.
